@@ -1,0 +1,11 @@
+yt-dlp
+oauth2client
+google-api-python-client
+pydub
+python-multipart
+python-dotenv
+isodate
+playwright
+tqdm
+requests
+

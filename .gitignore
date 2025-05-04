@@ -1,0 +1,9 @@
+env/
+__pycache__/
+.env
+scrapper.py
+scrapper2.py
+scrapp3.py
+hackathon-isheero-c0dd41f64dea.json
+api.py
+Audios/
