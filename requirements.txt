@@ -8,4 +8,16 @@ isodate
 playwright
 tqdm
 requests
+pandas
+librosa
+soundfile 
+scipy 
+torch 
+transformers 
+datasets 
+noisereduce 
+huggingface_hub 
+tqdm 
+matplotlib 
+seaborn
 

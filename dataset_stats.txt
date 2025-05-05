@@ -1,0 +1,38 @@
+============================================================
+STATISTIQUES GÉNÉRALES DU DATASET YOUTUBE
+============================================================
+Nombre total de vidéos : 2047
+
+ÉTAT DES FICHIERS AUDIO:
+  ✓ Fichiers OK : 2045 (99.9%)
+  ⚠ Fichiers corrompus : 2 (0.1%)
+  ❌ Fichiers non trouvés : 0 (0.0%)
+  ❓ Chemins manquants : 0 (0.0%)
+
+STATUT DE TÉLÉCHARGEMENT:
+  • success: 2047 (100.0%)
+
+DURÉE TOTALE DES AUDIOS VALIDES: 1016h 44m (61004.4 minutes)
+Durée moyenne par vidéo: 29.83 minutes
+
+RÉPARTITION PAR DURÉE:
+  • Très court (0-5 min): 119 vidéos (5.8%)
+  • Court (5-10 min): 84 vidéos (4.1%)
+  • Moyen (10-20 min): 999 vidéos (48.9%)
+  • Long (20-60 min): 752 vidéos (36.8%)
+  • Très long (60+ min): 91 vidéos (4.4%)
+
+TAILLE TOTALE DES FICHIERS: 54.20 GB
+Taille moyenne par fichier: 27.14 MB
+
+RÉPARTITION PAR TAILLE:
+  • Petit (<1 MB): 44 fichiers (2.2%)
+  • Moyen (1-5 MB): 96 fichiers (4.7%)
+  • Grand (5-20 MB): 1082 fichiers (52.9%)
+  • Très grand (>20 MB): 823 fichiers (40.2%)
+
+VIDÉOS À RETÉLÉCHARGER:
+Nombre total: 2
+Durée manquante: 1h 50m (110.9 minutes)
+
+============================================================

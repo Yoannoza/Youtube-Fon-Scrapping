@@ -30,7 +30,7 @@ API_KEY = os.getenv("GOOGLE_API")  # Utilisez votre propre clé API
 AUDIO_DIR = "Audios/"  # Répertoire local pour les fichiers audio
 MAX_DOWNLOAD_RETRIES = 5  # Nombre de tentatives de téléchargement
 MAX_WORKERS = 10  # Nombre de téléchargements simultanés
-DELAY_BETWEEN_DOWNLOADS = (2, 5)  # Intervalle réduit pour plus de vitesse
+DELAY_BETWEEN_DOWNLOADS = (3, 10)  # Intervalle réduit pour plus de vitesse
 
 # Système de rotation de User-Agents
 USER_AGENTS = [
@@ -44,14 +44,14 @@ USER_AGENTS = [
 PLAYLISTS = [
     # "PLNbBDYo93kPTQNzFmHd5AtisArjdWMRO-", "PL3-sPokHUCobRjs9VfcIwgnjtweYxoeME",
     # "PLYI_vH9CKTesTAcexTubA2rVqPotud-Fl", "PLD-g9JtxYcY4wmDhN69V7SaR7y7nRIrGv",
-    "PLD-g9JtxYcY7LI6zMwiQ-aGuKEQwh6DEX", "PLD-g9JtxYcY51VQRtGOh6yqGYx4cXuFtg",
-    "PLLzGd5fgj8FwHUTL3KiLXNjSmGWaUYqfA", "PLLzGd5fgj8FyBQ2PKD70p7hQjSPXGFLMv",
-    "PLNbUwjT0YUDPd6Cn9xdWl4WSGqTtS6JxB", "PLNbUwjT0YUDMFth1vfKCToaw3lkqoh0oC",
-    "PLNbUwjT0YUDMVt1Yt74EWty0SAg43swQu", "PLNbUwjT0YUDNsBm3PSpQdt4pYM1OIKlc-",
-    "PLNbUwjT0YUDOkhP-mHfgfZFmqvMrF-Jy0", "PLNbUwjT0YUDM_q2slswYHmh8HEjKLID_1",
-    # "PLp8fd-JP1pLqDoMJ_VKrNFkoIsOv76eI_", "PL36d3riubqC1c6ayEY1LTRHG7pUB7hAvf",
-    # "PL36d3riubqC0w9onxGXQIh0lPTmi6L4Sf", "PLVYNpA4FYAHytNDBF9OhvYjnqgo4SGVCu",
-    # "PL6x4b-eXwRRYSbXbZSH4ExkQxCafXpgX7"
+    # "PLD-g9JtxYcY7LI6zMwiQ-aGuKEQwh6DEX", "PLD-g9JtxYcY51VQRtGOh6yqGYx4cXuFtg",
+    # "PLLzGd5fgj8FwHUTL3KiLXNjSmGWaUYqfA", "PLLzGd5fgj8FyBQ2PKD70p7hQjSPXGFLMv",
+    # "PLNbUwjT0YUDPd6Cn9xdWl4WSGqTtS6JxB", "PLNbUwjT0YUDMFth1vfKCToaw3lkqoh0oC",
+    # "PLNbUwjT0YUDMVt1Yt74EWty0SAg43swQu", "PLNbUwjT0YUDNsBm3PSpQdt4pYM1OIKlc-",
+    # "PLNbUwjT0YUDOkhP-mHfgfZFmqvMrF-Jy0", "PLNbUwjT0YUDM_q2slswYHmh8HEjKLID_1",
+    "PLp8fd-JP1pLqDoMJ_VKrNFkoIsOv76eI_", "PL36d3riubqC1c6ayEY1LTRHG7pUB7hAvf",
+    "PL36d3riubqC0w9onxGXQIh0lPTmi6L4Sf", "PLVYNpA4FYAHytNDBF9OhvYjnqgo4SGVCu",
+    "PL6x4b-eXwRRYSbXbZSH4ExkQxCafXpgX7"
 ]
 
 # Création du répertoire de stockage s'il n'existe pas
@@ -314,7 +314,7 @@ def main():
                 video['status'] = 'failed'
 
     # 6. Exporter les informations dans un fichier CSV
-    output_csv = "videos_downloaded_2.csv"
+    output_csv = "videos_downloaded_3.csv"
     try:
         with open(output_csv, 'w', newline='', encoding='utf-8') as csvfile:
             writer = csv.writer(csvfile)
